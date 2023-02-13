@@ -1,0 +1,15 @@
+.paginationrow {
+  display: flex;
+}
+
+.elipse {
+  margin-bottom: 8px;
+}
+
+button {
+  margin-right: 16px;
+}
+
+button:last-child {
+  margin-right: 0px;
+}

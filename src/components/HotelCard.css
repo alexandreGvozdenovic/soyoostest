@@ -1,0 +1,76 @@
+.title {
+  margin-top: 16px;
+  color: #003c7f;
+  font-size: 18px;
+}
+.name {
+  color: #003c7f;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.informationsrow {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.address {
+  display: flex;
+}
+.text-address {
+  margin: 0px;
+  font-size: 14px;
+  color: #617c9c;
+  margin-left: 8px;
+  overflow: hidden;
+  max-width: 18ch;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.separator {
+  height: 14px;
+  border: 1px solid #617c9c;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.rating {
+  font-size: 14px;
+  font-weight: 500;
+  color: #617c9c;
+  margin-left: 12px;
+}
+
+.actionsrow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.buttonsrow {
+  display: flex;
+  gap: 16px;
+}
+.price {
+  font-size: 20px;
+  font-weight: 600;
+  color: #003c7f;
+}
+.numberofnightrow {
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 500;
+  color: #617c9c;
+}
+.dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: #617c9c;
+  border-radius: 100px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
